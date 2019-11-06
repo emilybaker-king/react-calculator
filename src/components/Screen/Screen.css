@@ -1,0 +1,13 @@
+
+.Screen {
+    height: 25vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: whitesmoke;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0 10px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
