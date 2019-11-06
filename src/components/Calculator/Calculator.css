@@ -1,0 +1,22 @@
+
+.Calculator {
+    background-color: white;
+    height: 80vh;
+    width: 25%;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 7px 71px 13px rgba(127,255,0,0.8);
+    -moz-box-shadow: -1px 7px 71px 13px rgba(127,255,0,0.8);
+    box-shadow: -1px 7px 71px 13px rgba(127,255,0,0.8);
+}
+
+@media screen and (max-width: 1280px) {
+    .Calculator {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .Calculator {
+        width: 80%;
+    }
+}
