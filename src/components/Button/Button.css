@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+.Button {
+    width: 25%;
+    height: 100%;
+    color: whitesmoke;
+    background-color: rgba(47, 79, 79, 0.397);
+    font-size: 20pt;
+    font-weight: bold;
+    outline: none;
+    border: 1px silver solid;
+    border-radius: 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.Button:hover {
+    background-color: chartreuse;
+    color: black;
+    text-shadow: none;
+}
+
+.Button:active {
+    transform: scale(.90);
+}
+
+.Button-primary {
+    color: gold;
+
+}
+
+.Button-operator {
+    color: turquoise;
+}
+
+.Button-equalButton {
+    width: 50%;
+}
