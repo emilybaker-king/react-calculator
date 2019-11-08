@@ -10,41 +10,41 @@ class Keypad extends Component {
             <div className='Keypad'>
                 {/* Row 1 */}
                 <KeypadRow>
-                    <Button type='primary'>C</Button>
-                    <Button type='operator'>&larr;</Button>
-                    <Button>%</Button>
-                    <Button>/</Button>
+                    <Button onButtonPress={this.props.onButtonPress} type='primary'>C</Button>
+                    <Button onButtonPress={this.props.onButtonPress} type='operator'>&larr;</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>%</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>/</Button>
                 </KeypadRow>
 
                 {/* Row 2 */}
                 <KeypadRow>
-                    <Button>7</Button>
-                    <Button>8</Button>
-                    <Button>9</Button>
-                    <Button>*</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>7</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>8</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>9</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>*</Button>
                 </KeypadRow>
 
                 {/* Row 3 */}
                 <KeypadRow>
-                    <Button>4</Button>
-                    <Button>5</Button>
-                    <Button>6</Button>
-                    <Button>-</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>4</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>5</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>6</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>-</Button>
                 </KeypadRow>
 
                 {/* Row 4 */}
                 <KeypadRow>
-                    <Button>1</Button>
-                    <Button>2</Button>
-                    <Button>3</Button>
-                    <Button>+</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>1</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>2</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>3</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>+</Button>
                 </KeypadRow>
                 
                 {/* Row 5 */}
                 <KeypadRow>
-                    <Button>0</Button>
-                    <Button>.</Button>
-                    <Button type='equalButton'>=</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>0</Button>
+                    <Button onButtonPress={this.props.onButtonPress}>.</Button>
+                    <Button onButtonPress={this.props.onButtonPress} type='equalButton'>=</Button>
                 </KeypadRow>
             </div>
         );
